@@ -44,9 +44,10 @@ matrix:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
     - os: linux
+      arch: arm64
       env:
         - MB_PYTHON_VERSION=3.6
-        - PLAT=arm64
+        - PLAT=aarch64
     - os: linux
       env:
         - MB_PYTHON_VERSION=3.7
@@ -55,9 +56,10 @@ matrix:
         - MB_PYTHON_VERSION=3.7
         - PLAT=i686
     - os: linux
+      arch: arm64
       env:
         - MB_PYTHON_VERSION=3.7
-        - PLAT=arm64
+        - PLAT=aarch64
     - os: linux
       env:
         - MB_PYTHON_VERSION=3.8
@@ -66,9 +68,10 @@ matrix:
         - MB_PYTHON_VERSION=3.8
         - PLAT=i686
     - os: linux
+      arch: arm64
       env:
         - MB_PYTHON_VERSION=3.8
-        - PLAT=arm64
+        - PLAT=aarch64
     - os: linux
       env:
         - MB_PYTHON_VERSION=3.9
@@ -77,9 +80,10 @@ matrix:
         - MB_PYTHON_VERSION=3.9
         - PLAT=i686
     - os: linux
+      arch: arm64
       env:
         - MB_PYTHON_VERSION=3.9
-        - PLAT=arm64
+        - PLAT=aarch64
     - os: osx
       env:
         - MB_PYTHON_VERSION=2.7
