@@ -44,12 +44,14 @@ matrix:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
     - os: linux
-      dist: focal
-      group: edge
       arch: arm64-graviton2
+      dist: focal
+      virt: vm
+      group: edge
       env:
         - MB_PYTHON_VERSION=3.6
         - PLAT=aarch64
+        - DOCKER_IMAGE=quay.io/pypa/manylinux2014_${PLAT}
     - os: linux
       env:
         - MB_PYTHON_VERSION=3.7
