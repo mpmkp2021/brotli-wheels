@@ -44,6 +44,7 @@ matrix:
         - MB_PYTHON_VERSION=3.6
         - PLAT=i686
     - os: linux
+      dist: focal
       group: edge
       arch: arm64-graviton2
       env:
